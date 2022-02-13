@@ -37,6 +37,10 @@ python main.py
 ```
 No se ejecutará porque aparecerá que "uvicorn is not defined", por lo tanto no se levantará el servidor. *NO SE HA ENCONTRADO SOLUCIÓN A PESAR DE VARIOS INTENTOS*
 En el archivo main.py habrá que descomentar el import para que se levante el servicio, pero a cambio no se ejecutará los tests porque aparecerá que no se encuentra el modulo llamado 'uvicorn'.
+
+Como en el enunciado lo importante es que haya un script que levante el servicio, se dejará comentado la parte del coverage y se dará prioridad a dicho levantamiento
+
+Para el coverage, habrá que utilizar las lineas comentadas en el run.sh en la terminal
 ### Referencias 🛠️
 * [pytest](https://docs.pytest.org/en/7.0.x/)
 * [requests](https://www.w3schools.com/python/module_requests.asp)
