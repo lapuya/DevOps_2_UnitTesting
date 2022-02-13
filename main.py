@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # main.py
+# import uvicorn -> descomentar esta línea para que run pueda ejecutarlo. No hara el test*
 from fastapi import FastAPI
 from pathlib import Path
 
